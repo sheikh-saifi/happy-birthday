@@ -302,39 +302,8 @@ const animationTimeline = () => {
   });
 };
 
-// Run fetch and animation in sequence
-fetchData();
-// Dilruba Na Raazi from Coke Studio starting at 2:37
-const birthdaySong = document.getElementById('birthdaySong');
-const playBtn = document.getElementById('playBtn');
+// DON'T auto-start - Password will control this
+// fetchData(); // REMOVE or COMMENT OUT this line
 
-// Set song URL (you need to get the actual MP3 URL)
-// You can use a direct MP3 link or upload the song
-birthdaySong.src = 'YOUR_MP3_FILE_URL'; // Change this
-
-// Start from 2:37 (157 seconds)
-birthdaySong.currentTime = 157;
-
-// Volume control
-birthdaySong.volume = 0.6; // 60% volume
-
-// Play/Pause button
-playBtn.addEventListener('click', function() {
-  if (birthdaySong.paused) {
-    birthdaySong.play();
-    playBtn.innerHTML = '⏸';
-    playBtn.style.background = '#ff1493';
-  } else {
-    birthdaySong.pause();
-    playBtn.innerHTML = '▶';
-    playBtn.style.background = '#ff69b4';
-  }
-});
-
-// Auto-play when user interacts (required by browsers)
-document.addEventListener('click', function initAudio() {
-  birthdaySong.play().catch(e => {
-    console.log('Auto-play prevented. Click play button.');
-  });
-  document.removeEventListener('click', initAudio);
-});
+// Make fetchData available globally for password script
+window.fetchData = fetchData;
