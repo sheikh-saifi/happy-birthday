@@ -5,7 +5,11 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+<<<<<<< HEAD
   background-color: #ff69b4; /* HOT PINK */
+=======
+  background-color: #ffd1dc; /* HOT PINK */
+>>>>>>> 0f7f8a0d5a192d694c72689f91fcb4aa2cb6d7f8
 }
 
 .container {

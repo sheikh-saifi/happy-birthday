@@ -1,15 +1,15 @@
 {
   "greeting": "Hello",
-  "name": "Omaima",
-  "greetingText": "I really like your name btw!",
-  "wishText": "As a developer we dont know how to show feelings & emotions but i did my best! ;)",
-  "imagePath": "img/omaima.png",
-  "text1": "It's your birthday!!!:D",
+  "name": "Raha",
+  "greetingText": "You know your Chachu adores you!",
+  "wishText": "May the js.prototypes always be with you! ;)",
+  "imagePath": "img/raha.png",
+  "text1": "It's your birthday!!! :D",
   "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
   "sendButtonLabel": "Send",
   "text2": "That's what I was going to do.",
-  "text3": "But then I stopped cuz of fucking Exams 😭.",
-  "text4": "Sorry for late, Then I realised, I wanted to do something",
+  "text3": "But then I stopped.",
+  "text4": "I realised, I wanted to do something",
   "text4Adjective": "special",
   "text5Entry": "Because,",
   "text5Content": "You are Special",
@@ -19,5 +19,5 @@
   "wishHeading": "Happy Birthday!",
   "outroText": "Okay, now come back and tell me if you liked it.",
   "replayText": "Or click, if you want to watch it again.",
-  "outroSmiley": "sheikh_safii :)"
+  "outroSmiley": ":)"
 }

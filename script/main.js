@@ -302,8 +302,5 @@ const animationTimeline = () => {
   });
 };
 
-// DON'T auto-start - Password will control this
-// fetchData(); // REMOVE or COMMENT OUT this line
-
-// Make fetchData available globally for password script
-window.fetchData = fetchData;w
+// Run fetch and animation in sequence
+fetchData();
