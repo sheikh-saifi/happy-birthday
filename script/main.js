@@ -306,4 +306,4 @@ const animationTimeline = () => {
 // fetchData(); // REMOVE or COMMENT OUT this line
 
 // Make fetchData available globally for password script
-window.fetchData = fetchData;
+window.fetchData = fetchData;w
